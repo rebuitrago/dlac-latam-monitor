@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated": "2026-06-11T08:00:00",
-    "report_date": "2026-06-11",
-    "report_week": "Week of June 11, 2026",
-    "report_week_es": "Semana del 11 de junio de 2026",
+    "generated": "2026-06-15T13:17:17.380362",
+    "report_date": "2026-06-15",
+    "report_week": "Week of June 15, 2026",
+    "report_week_es": "Semana del 15 de junio de 2026",
     "sources": [
       "Yahoo Finance (yfinance)",
       "IMF World Economic Outlook API",
@@ -11,42 +11,292 @@
     ]
   },
   "equities": {
-    "Brazil":    {"index":"IBOVESPA",    "flag":"🇧🇷","ticker":"^BVSP",    "last":168619,"change_pct":-0.70,"week_pct":-0.57,"ytd_pct":23.3, "updated":"2026-06-10"},
-    "Mexico":    {"index":"S&P/BMV IPC","flag":"🇲🇽","ticker":"^MXX",     "last":64822, "change_pct":-0.90,"week_pct":-1.67,"ytd_pct":10.5, "updated":"2026-06-10"},
-    "Colombia":  {"index":"COLCAP",     "flag":"🇨🇴","ticker":"^COLCAP",  "last":2263,  "change_pct": 0.45,"week_pct": 0.29,"ytd_pct":11.7, "updated":"2026-06-10"},
-    "Argentina": {"index":"MERVAL",     "flag":"🇦🇷","ticker":"^MERV",    "last":3153150,"change_pct":0.08,"week_pct": 0.72,"ytd_pct":22.9, "updated":"2026-06-10"},
-    "Chile":     {"index":"IPSA",       "flag":"🇨🇱","ticker":"^IPSA",    "last":10453, "change_pct":-0.45,"week_pct":-0.73,"ytd_pct": 3.6, "updated":"2026-06-10"},
-    "Peru":      {"index":"BVL General","flag":"🇵🇪","ticker":"^SPBLPGPT","last":34938, "change_pct": 0.29,"week_pct": 2.14,"ytd_pct": 6.8, "updated":"2026-06-10"}
+    "Brazil": {
+      "index": "IBOVESPA",
+      "flag": "🇧🇷",
+      "ticker": "^BVSP",
+      "last": 171139.11,
+      "prev_close": 171133.0,
+      "change_pct": 0.0,
+      "week_pct": 0.78,
+      "ytd_pct": 5.66,
+      "updated": "2026-06-15"
+    },
+    "Mexico": {
+      "index": "S&P/BMV IPC",
+      "flag": "🇲🇽",
+      "ticker": "^MXX",
+      "last": 67954.55,
+      "prev_close": 66977.05,
+      "change_pct": 1.46,
+      "week_pct": 3.43,
+      "ytd_pct": 4.75,
+      "updated": "2026-06-12"
+    },
+    "Colombia": {
+      "index": "COLCAP",
+      "flag": "🇨🇴",
+      "ticker": "^COLCAP",
+      "last": null,
+      "change_pct": null,
+      "week_pct": null,
+      "ytd_pct": null
+    },
+    "Argentina": {
+      "index": "MERVAL",
+      "flag": "🇦🇷",
+      "ticker": "^MERV",
+      "last": 3352708.0,
+      "prev_close": 3353008.0,
+      "change_pct": -0.01,
+      "week_pct": 7.73,
+      "ytd_pct": 11.24,
+      "updated": "2026-06-12"
+    },
+    "Chile": {
+      "index": "IPSA",
+      "flag": "🇨🇱",
+      "ticker": "^IPSA",
+      "last": 10922.98,
+      "prev_close": 10922.98,
+      "change_pct": 0.0,
+      "week_pct": 0.0,
+      "ytd_pct": 0.0,
+      "updated": "2026-06-15"
+    },
+    "Peru": {
+      "index": "BVL General",
+      "flag": "🇵🇪",
+      "ticker": "^SPBLPGPT",
+      "last": null,
+      "change_pct": null,
+      "week_pct": null,
+      "ytd_pct": null
+    }
   },
   "fx": {
-    "USD/BRL":{"flag":"🇧🇷","country":"Brazil",   "last":5.17, "change_pct":-0.38,"week_pct":-0.9},
-    "USD/MXN":{"flag":"🇲🇽","country":"Mexico",   "last":17.40,"change_pct":-0.07,"week_pct": 0.3},
-    "USD/COP":{"flag":"🇨🇴","country":"Colombia", "last":3547, "change_pct":-0.77,"week_pct":-1.2},
-    "USD/ARS":{"flag":"🇦🇷","country":"Argentina","last":1433, "change_pct":-0.02,"week_pct":-0.1},
-    "USD/CLP":{"flag":"🇨🇱","country":"Chile",    "last":916,  "change_pct": 0.28,"week_pct": 0.5},
-    "USD/PEN":{"flag":"🇵🇪","country":"Peru",     "last":3.39, "change_pct":-0.31,"week_pct":-0.4}
+    "USD/BRL": {
+      "flag": "🇧🇷",
+      "country": "Brazil",
+      "ticker": "BRL=X",
+      "last": 5.04,
+      "prev_close": 5.11,
+      "change_pct": -1.37,
+      "week_pct": -3.08,
+      "ytd_pct": -6.15,
+      "updated": "2026-06-15"
+    },
+    "USD/MXN": {
+      "flag": "🇲🇽",
+      "country": "Mexico",
+      "ticker": "MXN=X",
+      "last": 17.19,
+      "prev_close": 17.25,
+      "change_pct": -0.35,
+      "week_pct": -1.6,
+      "ytd_pct": -4.39,
+      "updated": "2026-06-15"
+    },
+    "USD/COP": {
+      "flag": "🇨🇴",
+      "country": "Colombia",
+      "ticker": "COP=X",
+      "last": 3454.45,
+      "prev_close": 3500.13,
+      "change_pct": -1.31,
+      "week_pct": -3.86,
+      "ytd_pct": -6.92,
+      "updated": "2026-06-15"
+    },
+    "USD/ARS": {
+      "flag": "🇦🇷",
+      "country": "Argentina",
+      "ticker": "ARS=X",
+      "last": 1428.5,
+      "prev_close": 1432.51,
+      "change_pct": -0.28,
+      "week_pct": -1.24,
+      "ytd_pct": -2.64,
+      "updated": "2026-06-15"
+    },
+    "USD/CLP": {
+      "flag": "🇨🇱",
+      "country": "Chile",
+      "ticker": "CLP=X",
+      "last": 889.63,
+      "prev_close": 906.02,
+      "change_pct": -1.81,
+      "week_pct": -3.61,
+      "ytd_pct": -0.43,
+      "updated": "2026-06-15"
+    },
+    "USD/PEN": {
+      "flag": "🇵🇪",
+      "country": "Peru",
+      "ticker": "PEN=X",
+      "last": 3.4,
+      "prev_close": 3.33,
+      "change_pct": 2.1,
+      "week_pct": -2.02,
+      "ytd_pct": 1.19,
+      "updated": "2026-06-15"
+    }
   },
   "commodities": {
-    "Brent Crude":{"unit":"USD/bbl","emoji":"🛢", "latam":"Colombia, Mexico, Brazil",  "last":92.11,"change_pct":-1.06},
-    "Copper":     {"unit":"USD/lb", "emoji":"🔴","latam":"Chile, Peru",               "last":6.21, "change_pct":-0.59},
-    "Gold":       {"unit":"USD/oz", "emoji":"🥇","latam":"Peru, Colombia",             "last":4109, "change_pct": 0.01},
-    "Soybean":    {"unit":"USc/bu", "emoji":"🌱","latam":"Brazil, Argentina",          "last":1122, "change_pct":-0.09},
-    "Coffee":     {"unit":"USc/lb", "emoji":"☕","latam":"Colombia, Brazil",           "last":250.80,"change_pct":0.97}
+    "Brent Crude": {
+      "unit": "USD/bbl",
+      "emoji": "🛢",
+      "latam": "Colombia, Mexico, Brazil",
+      "last": 83.14,
+      "prev_close": 87.33,
+      "change_pct": -4.8,
+      "week_pct": -4.8,
+      "ytd_pct": 38.66,
+      "updated": "2026-06-15"
+    },
+    "Copper": {
+      "unit": "USD/lb",
+      "emoji": "🔴",
+      "latam": "Chile, Peru",
+      "last": 6.5,
+      "prev_close": 6.43,
+      "change_pct": 1.09,
+      "week_pct": 1.09,
+      "ytd_pct": 11.88,
+      "updated": "2026-06-15"
+    },
+    "Gold": {
+      "unit": "USD/oz",
+      "emoji": "🥇",
+      "latam": "Peru, Colombia",
+      "last": 4364.6,
+      "prev_close": 4215.0,
+      "change_pct": 3.55,
+      "week_pct": 3.55,
+      "ytd_pct": -1.9,
+      "updated": "2026-06-15"
+    },
+    "Soybean": {
+      "unit": "USc/bu",
+      "emoji": "🌱",
+      "latam": "Brazil, Argentina",
+      "last": 1102.75,
+      "prev_close": 1113.5,
+      "change_pct": -0.97,
+      "week_pct": -0.97,
+      "ytd_pct": 4.75,
+      "updated": "2026-06-15"
+    },
+    "Coffee": {
+      "unit": "USc/lb",
+      "emoji": "☕",
+      "latam": "Colombia, Brazil",
+      "last": 256.2,
+      "prev_close": 257.2,
+      "change_pct": -0.39,
+      "week_pct": -0.39,
+      "ytd_pct": -31.76,
+      "updated": "2026-06-15"
+    }
   },
   "macro": {
-    "Brazil":    {"iso3":"BRA","flag":"🇧🇷","gdp_current":2.9,"gdp_forecast":1.8,"cpi_current":4.14,"cpi_forecast":4.6,"unemployment":6.8},
-    "Mexico":    {"iso3":"MEX","flag":"🇲🇽","gdp_current":1.2,"gdp_forecast":1.5,"cpi_current":3.80,"cpi_forecast":3.8,"unemployment":2.8},
-    "Colombia":  {"iso3":"COL","flag":"🇨🇴","gdp_current":1.9,"gdp_forecast":2.4,"cpi_current":5.29,"cpi_forecast":5.3,"unemployment":9.2},
-    "Argentina": {"iso3":"ARG","flag":"🇦🇷","gdp_current":5.7,"gdp_forecast":4.5,"cpi_current":55.0,"cpi_forecast":45.0,"unemployment":6.9},
-    "Chile":     {"iso3":"CHL","flag":"🇨🇱","gdp_current":2.5,"gdp_forecast":2.2,"cpi_current":2.10,"cpi_forecast":2.3,"unemployment":8.5},
-    "Peru":      {"iso3":"PER","flag":"🇵🇪","gdp_current":3.2,"gdp_forecast":3.0,"cpi_current":2.20,"cpi_forecast":2.4,"unemployment":6.4}
+    "Brazil": {
+      "iso3": "BRA",
+      "flag": "🇧🇷",
+      "gdp_current": 1.9,
+      "gdp_forecast": 2.0,
+      "cpi_current": 4.0,
+      "cpi_forecast": 3.4,
+      "unemployment": 6.8
+    },
+    "Mexico": {
+      "iso3": "MEX",
+      "flag": "🇲🇽",
+      "gdp_current": 1.6,
+      "gdp_forecast": 2.2,
+      "cpi_current": 3.9,
+      "cpi_forecast": 3.4,
+      "unemployment": 2.7
+    },
+    "Colombia": {
+      "iso3": "COL",
+      "flag": "🇨🇴",
+      "gdp_current": 2.3,
+      "gdp_forecast": 2.5,
+      "cpi_current": 5.9,
+      "cpi_forecast": 5.2,
+      "unemployment": 9.0
+    },
+    "Argentina": {
+      "iso3": "ARG",
+      "flag": "🇦🇷",
+      "gdp_current": 3.5,
+      "gdp_forecast": 4.0,
+      "cpi_current": 30.4,
+      "cpi_forecast": 15.7,
+      "unemployment": 7.2
+    },
+    "Chile": {
+      "iso3": "CHL",
+      "flag": "🇨🇱",
+      "gdp_current": 2.4,
+      "gdp_forecast": 2.6,
+      "cpi_current": 2.9,
+      "cpi_forecast": 3.3,
+      "unemployment": 8.1
+    },
+    "Peru": {
+      "iso3": "PER",
+      "flag": "🇵🇪",
+      "gdp_current": 2.8,
+      "gdp_forecast": 2.8,
+      "cpi_current": 2.5,
+      "cpi_forecast": 1.8,
+      "unemployment": 6.3
+    }
   },
   "policy_rates": {
-    "Brazil":    {"rate":14.75,"as_of":"2026-04-29","direction":"cutting","bank":"BCB/Copom","flag":"🇧🇷"},
-    "Mexico":    {"rate":9.00, "as_of":"2026-05-08","direction":"cutting","bank":"Banxico",  "flag":"🇲🇽"},
-    "Colombia":  {"rate":9.50, "as_of":"2026-05-30","direction":"hold",   "bank":"BanRep",  "flag":"🇨🇴"},
-    "Argentina": {"rate":35.00,"as_of":"2026-05-15","direction":"easing", "bank":"BCRA",    "flag":"🇦🇷"},
-    "Chile":     {"rate":4.50, "as_of":"2026-05-06","direction":"hold",   "bank":"BCCh",    "flag":"🇨🇱"},
-    "Peru":      {"rate":4.25, "as_of":"2026-05-08","direction":"hold",   "bank":"BCRP",    "flag":"🇵🇪"}
+    "Brazil": {
+      "rate": 14.75,
+      "as_of": "2026-04-29",
+      "direction": "cutting",
+      "bank": "BCB/Copom",
+      "flag": "🇧🇷"
+    },
+    "Mexico": {
+      "rate": 9.0,
+      "as_of": "2026-05-08",
+      "direction": "cutting",
+      "bank": "Banxico",
+      "flag": "🇲🇽"
+    },
+    "Colombia": {
+      "rate": 9.5,
+      "as_of": "2026-05-30",
+      "direction": "hold",
+      "bank": "BanRep",
+      "flag": "🇨🇴"
+    },
+    "Argentina": {
+      "rate": 35.0,
+      "as_of": "2026-05-15",
+      "direction": "easing",
+      "bank": "BCRA",
+      "flag": "🇦🇷"
+    },
+    "Chile": {
+      "rate": 4.5,
+      "as_of": "2026-05-06",
+      "direction": "hold",
+      "bank": "BCCh",
+      "flag": "🇨🇱"
+    },
+    "Peru": {
+      "rate": 4.25,
+      "as_of": "2026-05-08",
+      "direction": "hold",
+      "bank": "BCRP",
+      "flag": "🇵🇪"
+    }
   }
 }
