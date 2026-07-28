@@ -11,7 +11,7 @@ permissions:
 jobs:
   fetch-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -32,16 +32,11 @@ jobs:
       - name: Fetch LATAM market data
         run: python fetch_data.py
 
-      - name: Copy data to docs/
-        run: |
-          mkdir -p docs/data
-          cp data/latam_data.json docs/data/latam_data.json
-
       - name: Commit and push updated data
         run: |
           git config --global user.name  "DLAC Monitor Bot"
           git config --global user.email "dlac-bot@egade.tec.mx"
-          git add data/latam_data.json docs/data/latam_data.json
+          git add data/latam_data.json docs/data/latam_data.json docs/data/history.json
           git diff --staged --quiet || git commit -m \
             "🔄 Auto-update: LATAM market data $(date +'%Y-%m-%d %H:%M UTC')"
           git push
