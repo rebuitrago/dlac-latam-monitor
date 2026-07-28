@@ -155,13 +155,15 @@ IMF_INDICATORS = {
 WB_BASE = "https://api.worldbank.org/v2"
 WB_FDI_USD  = "BX.KLT.DINV.CD.WD"      # FDI net inflows, current US$ (BoP)
 WB_FDI_GDP  = "BX.KLT.DINV.WD.GD.ZS"   # FDI net inflows, % of GDP
+# WGI codes were renamed by the World Bank (2024 revamp): old "GE.EST" style
+# codes are archived; current codes live in source=3 as "GOV_WGI_*.EST".
 WB_WGI = {
-    "gov_effectiveness":  "GE.EST",
-    "regulatory_quality": "RQ.EST",
-    "rule_of_law":        "RL.EST",
-    "control_corruption": "CC.EST",
-    "political_stability": "PV.EST",
-    "voice_accountability": "VA.EST",
+    "gov_effectiveness":  "GOV_WGI_GE.EST",
+    "regulatory_quality": "GOV_WGI_RQ.EST",
+    "rule_of_law":        "GOV_WGI_RL.EST",
+    "control_corruption": "GOV_WGI_CC.EST",
+    "political_stability": "GOV_WGI_PV.EST",
+    "voice_accountability": "GOV_WGI_VA.EST",
 }
 
 # ═══════════════════════════════════════════════════════════════════════════
