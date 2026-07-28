@@ -351,11 +351,15 @@ def fetch_imf_indicator(indicator_code, iso3_list, years=2):
     return _retry(_pull, label=f"IMF {indicator_code}") or {}
 
 
-def fetch_wb_latest(indicator, iso3_list):
-    """Latest non-null value per country: {ISO3: {value, year}}."""
+def fetch_wb_latest(indicator, iso3_list, source=None):
+    """Latest non-null value per country: {ISO3: {value, year}}.
+    source: World Bank database id (e.g., 3 = Worldwide Governance Indicators —
+    WGI codes like GE.EST are not in the default WDI database)."""
     cc = ";".join(iso3_list)
     url = f"{WB_BASE}/country/{cc}/indicator/{indicator}"
     params = {"format": "json", "mrnev": 1, "per_page": 60}
+    if source is not None:
+        params["source"] = source
     def _pull():
         r = requests.get(url, params=params, timeout=20)
         r.raise_for_status()
@@ -612,11 +616,21 @@ def fetch_all():
         bis = fetch_bis_policy_rate(country)
         info = CENTRAL_BANKS[country]
         if bis:
+            # Age check: a series whose latest observation is months old is
+            # not a current rate (e.g., Argentina — the BCRA abandoned a
+            # single policy rate in 2025, so the BIS series ends there).
+            aged = False
+            try:
+                aged = (now - datetime.strptime(bis["as_of"], "%Y-%m-%d")).days > 120
+            except (ValueError, TypeError):
+                pass
             output["policy_rates"][country] = {
                 **bis, "bank": info["bank"], "target": info["target"],
-                "flag": FLAGS[country], "stale": False, "source": "BIS",
+                "flag": FLAGS[country], "stale": aged,
+                "source": "BIS (aged observation)" if aged else "BIS",
             }
-            log.info(f"  {country}: {bis['rate']}% (as of {bis['as_of']}, {bis['direction']})")
+            log.info(f"  {country}: {bis['rate']}% (as of {bis['as_of']}, {bis['direction']})"
+                     + ("  [AGED — flagged stale]" if aged else ""))
         else:
             prev = prev_rates.get(country, {})
             output["policy_rates"][country] = {
@@ -647,7 +661,7 @@ def fetch_all():
                        for p in series],
         }
 
-    wgi = {key: fetch_wb_latest(code, iso3_list) for key, code in WB_WGI.items()}
+    wgi = {key: fetch_wb_latest(code, iso3_list, source=3) for key, code in WB_WGI.items()}
     for country, iso3 in ISO3.items():
         output["governance"][country] = {"flag": FLAGS[country]}
         for key in WB_WGI:
@@ -739,9 +753,16 @@ def _validate(data):
             problems.append(f"FX feed unavailable: {p}")
     for c, d in data["policy_rates"].items():
         if d.get("stale"):
-            problems.append(f"Policy rate stale (BIS failed): {c}")
+            problems.append(f"Policy rate stale ({d.get('source', 'unknown')}): {c}")
         if d.get("rate") is None:
             problems.append(f"Policy rate missing entirely: {c}")
+    for c, d in data.get("governance", {}).items():
+        missing = [k for k in WB_WGI if d.get(k) is None]
+        if missing:
+            problems.append(f"Governance indicators missing for {c}: {len(missing)}/{len(WB_WGI)}")
+    for c, d in data.get("fdi", {}).items():
+        if d.get("latest_usd_bn") is None:
+            problems.append(f"FDI data missing: {c}")
 
     import os
     summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
