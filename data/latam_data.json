@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated": "2026-07-28T23:10:00.990470",
+    "generated": "2026-08-03T10:43:34.349621",
     "version": 2,
-    "report_date": "2026-07-28",
-    "report_week": "Week of July 28, 2026",
-    "report_week_es": "Semana del 28 de julio de 2026",
+    "report_date": "2026-08-03",
+    "report_week": "Week of August 03, 2026",
+    "report_week_es": "Semana del 3 de agosto de 2026",
     "sources": [
       "Yahoo Finance (yfinance)",
       "BIS Data Portal (policy rates)",
@@ -18,72 +18,72 @@
       "flag": "🇧🇷",
       "ticker": "^BVSP",
       "proxy": false,
-      "last": 176564.75,
-      "prev_close": 175335.0,
-      "change_pct": 0.7,
-      "week_pct": 1.84,
-      "updated": "2026-07-28",
-      "ytd_pct": 9.01
+      "last": 177999.0,
+      "prev_close": 177159.0,
+      "change_pct": 0.47,
+      "week_pct": 2.27,
+      "updated": "2026-07-31",
+      "ytd_pct": 9.89
     },
     "Mexico": {
       "index": "S&P/BMV IPC",
       "flag": "🇲🇽",
       "ticker": "^MXX",
       "proxy": false,
-      "last": 67307.54,
-      "prev_close": 67157.91,
-      "change_pct": 0.22,
-      "week_pct": 1.79,
-      "updated": "2026-07-28",
-      "ytd_pct": 3.75
+      "last": 66936.99,
+      "prev_close": 67290.4,
+      "change_pct": -0.53,
+      "week_pct": 0.83,
+      "updated": "2026-07-31",
+      "ytd_pct": 3.18
     },
     "Colombia": {
       "index": "iShares COLCAP (BVC)",
       "flag": "🇨🇴",
       "ticker": "ICOLCAP.CL",
       "proxy": true,
-      "last": 22885.0,
-      "prev_close": 22679.0,
-      "change_pct": 0.91,
-      "week_pct": -1.01,
-      "updated": "2026-07-28",
-      "ytd_pct": 7.82
+      "last": 23498.0,
+      "prev_close": 23200.0,
+      "change_pct": 1.28,
+      "week_pct": 3.6,
+      "updated": "2026-07-31",
+      "ytd_pct": 10.71
     },
     "Argentina": {
       "index": "S&P MERVAL",
       "flag": "🇦🇷",
       "ticker": "^MERV",
       "proxy": false,
-      "last": 3256361.75,
-      "prev_close": 3305316.0,
-      "change_pct": -1.48,
-      "week_pct": 1.01,
-      "updated": "2026-07-28",
-      "ytd_pct": 8.04
+      "last": 3291323.0,
+      "prev_close": 3304918.0,
+      "change_pct": -0.41,
+      "week_pct": 0.23,
+      "updated": "2026-07-31",
+      "ytd_pct": 9.2
     },
     "Chile": {
       "index": "iShares MSCI Chile ETF (USD)",
       "flag": "🇨🇱",
       "ticker": "ECH",
       "proxy": true,
-      "last": 39.08,
-      "prev_close": 39.24,
-      "change_pct": -0.41,
-      "week_pct": 0.72,
-      "updated": "2026-07-28",
-      "ytd_pct": -6.35
+      "last": 39.33,
+      "prev_close": 39.82,
+      "change_pct": -1.23,
+      "week_pct": 1.86,
+      "updated": "2026-07-31",
+      "ytd_pct": -5.75
     },
     "Peru": {
       "index": "iShares MSCI Peru ETF (USD)",
       "flag": "🇵🇪",
       "ticker": "EPU",
       "proxy": true,
-      "last": 84.84,
-      "prev_close": 85.47,
-      "change_pct": -0.74,
-      "week_pct": 0.38,
-      "updated": "2026-07-28",
-      "ytd_pct": 14.34
+      "last": 85.98,
+      "prev_close": 86.84,
+      "change_pct": -0.99,
+      "week_pct": 0.56,
+      "updated": "2026-07-31",
+      "ytd_pct": 15.88
     }
   },
   "fx": {
@@ -91,67 +91,67 @@
       "flag": "🇧🇷",
       "country": "Brazil",
       "ticker": "BRL=X",
-      "last": 5.12,
+      "last": 5.07,
       "prev_close": 5.08,
-      "change_pct": 0.79,
-      "week_pct": 0.39,
-      "updated": "2026-07-28",
-      "ytd_pct": -4.66
+      "change_pct": -0.2,
+      "week_pct": -0.2,
+      "updated": "2026-08-03",
+      "ytd_pct": -5.59
     },
     "USD/MXN": {
       "flag": "🇲🇽",
       "country": "Mexico",
       "ticker": "MXN=X",
-      "last": 17.44,
-      "prev_close": 17.44,
-      "change_pct": 0.0,
-      "week_pct": 0.23,
-      "updated": "2026-07-29",
-      "ytd_pct": -3.0
+      "last": 17.33,
+      "prev_close": 17.34,
+      "change_pct": -0.06,
+      "week_pct": -0.63,
+      "updated": "2026-08-03",
+      "ytd_pct": -3.62
     },
     "USD/COP": {
       "flag": "🇨🇴",
       "country": "Colombia",
       "ticker": "COP=X",
-      "last": 3204.34,
-      "prev_close": 3216.91,
-      "change_pct": -0.39,
-      "week_pct": -1.59,
-      "updated": "2026-07-28",
-      "ytd_pct": -13.66
+      "last": 3202.5,
+      "prev_close": 3121.93,
+      "change_pct": 2.58,
+      "week_pct": -0.45,
+      "updated": "2026-08-03",
+      "ytd_pct": -13.71
     },
     "USD/ARS": {
       "flag": "🇦🇷",
       "country": "Argentina",
       "ticker": "ARS=X",
-      "last": 1497.06,
-      "prev_close": 1495.09,
-      "change_pct": 0.13,
-      "week_pct": 1.05,
-      "updated": "2026-07-28",
-      "ytd_pct": 2.03
+      "last": 1485.0,
+      "prev_close": 1489.0,
+      "change_pct": -0.27,
+      "week_pct": -0.67,
+      "updated": "2026-08-03",
+      "ytd_pct": 1.21
     },
     "USD/CLP": {
       "flag": "🇨🇱",
       "country": "Chile",
       "ticker": "CLP=X",
-      "last": 931.73,
-      "prev_close": 940.04,
-      "change_pct": -0.88,
-      "week_pct": -0.26,
-      "updated": "2026-07-29",
-      "ytd_pct": 4.29
+      "last": 930.47,
+      "prev_close": 925.05,
+      "change_pct": 0.59,
+      "week_pct": -1.64,
+      "updated": "2026-08-01",
+      "ytd_pct": 4.15
     },
     "USD/PEN": {
       "flag": "🇵🇪",
       "country": "Peru",
       "ticker": "PEN=X",
-      "last": 3.4,
-      "prev_close": 3.4,
-      "change_pct": 0.0,
-      "week_pct": 0.29,
-      "updated": "2026-07-29",
-      "ytd_pct": 1.19
+      "last": 3.38,
+      "prev_close": 3.32,
+      "change_pct": 1.81,
+      "week_pct": 1.5,
+      "updated": "2026-08-03",
+      "ytd_pct": 0.6
     }
   },
   "commodities": {
@@ -159,56 +159,56 @@
       "unit": "USD/bbl",
       "emoji": "🛢",
       "latam": "Colombia, Mexico, Brazil",
-      "last": 87.46,
-      "prev_close": 88.36,
-      "change_pct": -1.02,
-      "week_pct": -3.9,
-      "updated": "2026-07-28",
-      "ytd_pct": 45.86
+      "last": 83.76,
+      "prev_close": 90.12,
+      "change_pct": -7.06,
+      "week_pct": -5.21,
+      "updated": "2026-08-03",
+      "ytd_pct": 39.69
     },
     "Copper": {
       "unit": "USD/lb",
       "emoji": "🔴",
       "latam": "Chile, Peru",
-      "last": 6.34,
-      "prev_close": 6.34,
-      "change_pct": 0.0,
-      "week_pct": -2.61,
-      "updated": "2026-07-28",
-      "ytd_pct": 9.12
+      "last": 6.52,
+      "prev_close": 6.44,
+      "change_pct": 1.24,
+      "week_pct": 2.84,
+      "updated": "2026-08-03",
+      "ytd_pct": 12.22
     },
     "Gold": {
       "unit": "USD/oz",
       "emoji": "🥇",
       "latam": "Peru, Colombia",
-      "last": 4017.7,
-      "prev_close": 4074.5,
-      "change_pct": -1.39,
-      "week_pct": -1.31,
-      "updated": "2026-07-28",
-      "ytd_pct": -9.7
+      "last": 4108.4,
+      "prev_close": 4049.1,
+      "change_pct": 1.46,
+      "week_pct": 0.83,
+      "updated": "2026-08-03",
+      "ytd_pct": -7.66
     },
     "Soybean": {
       "unit": "USc/bu",
       "emoji": "🌱",
       "latam": "Brazil, Argentina",
-      "last": 1219.75,
-      "prev_close": 1208.5,
-      "change_pct": 0.93,
-      "week_pct": 0.02,
-      "updated": "2026-07-28",
-      "ytd_pct": 15.86
+      "last": 1180.5,
+      "prev_close": 1172.0,
+      "change_pct": 0.73,
+      "week_pct": -2.32,
+      "updated": "2026-08-03",
+      "ytd_pct": 12.13
     },
     "Coffee": {
       "unit": "USc/lb",
       "emoji": "☕",
       "latam": "Colombia, Brazil",
-      "last": 340.5,
-      "prev_close": 324.55,
-      "change_pct": 4.91,
-      "week_pct": 2.58,
-      "updated": "2026-07-28",
-      "ytd_pct": -9.31
+      "last": 310.65,
+      "prev_close": 332.1,
+      "change_pct": -6.46,
+      "week_pct": -4.28,
+      "updated": "2026-08-03",
+      "ytd_pct": -17.26
     }
   },
   "macro": {
@@ -270,7 +270,7 @@
   "policy_rates": {
     "Brazil": {
       "rate": 14.25,
-      "as_of": "2026-07-21",
+      "as_of": "2026-07-29",
       "direction": "cutting",
       "bank": "BCB/Copom",
       "target": "3.0% ±1.5",
@@ -280,7 +280,7 @@
     },
     "Mexico": {
       "rate": 6.5,
-      "as_of": "2026-07-21",
+      "as_of": "2026-07-29",
       "direction": "hold",
       "bank": "Banxico",
       "target": "3.0% ±1",
@@ -290,7 +290,7 @@
     },
     "Colombia": {
       "rate": 12.0,
-      "as_of": "2026-07-16",
+      "as_of": "2026-07-27",
       "direction": "hiking",
       "bank": "BanRep",
       "target": "3.0% ±1",
@@ -310,7 +310,7 @@
     },
     "Chile": {
       "rate": 4.5,
-      "as_of": "2026-07-21",
+      "as_of": "2026-07-29",
       "direction": "hold",
       "bank": "BCCh",
       "target": "3.0% ±1",
@@ -320,7 +320,7 @@
     },
     "Peru": {
       "rate": 4.25,
-      "as_of": "2026-07-21",
+      "as_of": "2026-07-24",
       "direction": "hold",
       "bank": "BCRP",
       "target": "2.0% ±1",
@@ -332,479 +332,209 @@
   "fdi": {
     "Brazil": {
       "flag": "🇧🇷",
-      "latest_usd_bn": 77.7,
-      "latest_year": "2025",
-      "pct_gdp": 3.41,
-      "pct_gdp_year": "2025",
-      "series": [
-        {
-          "year": "2015",
-          "usd_bn": 64.7
-        },
-        {
-          "year": "2016",
-          "usd_bn": 74.3
-        },
-        {
-          "year": "2017",
-          "usd_bn": 68.9
-        },
-        {
-          "year": "2018",
-          "usd_bn": 78.2
-        },
-        {
-          "year": "2019",
-          "usd_bn": 69.2
-        },
-        {
-          "year": "2020",
-          "usd_bn": 38.3
-        },
-        {
-          "year": "2021",
-          "usd_bn": 46.4
-        },
-        {
-          "year": "2022",
-          "usd_bn": 75.5
-        },
-        {
-          "year": "2023",
-          "usd_bn": 62.8
-        },
-        {
-          "year": "2024",
-          "usd_bn": 74.1
-        },
-        {
-          "year": "2025",
-          "usd_bn": 77.7
-        }
-      ]
+      "latest_usd_bn": null,
+      "latest_year": null,
+      "pct_gdp": null,
+      "pct_gdp_year": null,
+      "series": []
     },
     "Mexico": {
       "flag": "🇲🇽",
-      "latest_usd_bn": 43.1,
-      "latest_year": "2025",
-      "pct_gdp": 2.35,
-      "pct_gdp_year": "2025",
-      "series": [
-        {
-          "year": "2015",
-          "usd_bn": 36.3
-        },
-        {
-          "year": "2016",
-          "usd_bn": 38.9
-        },
-        {
-          "year": "2017",
-          "usd_bn": 33.1
-        },
-        {
-          "year": "2018",
-          "usd_bn": 37.9
-        },
-        {
-          "year": "2019",
-          "usd_bn": 29.9
-        },
-        {
-          "year": "2020",
-          "usd_bn": 31.5
-        },
-        {
-          "year": "2021",
-          "usd_bn": 35.6
-        },
-        {
-          "year": "2022",
-          "usd_bn": 39.2
-        },
-        {
-          "year": "2023",
-          "usd_bn": 30.7
-        },
-        {
-          "year": "2024",
-          "usd_bn": 45.5
-        },
-        {
-          "year": "2025",
-          "usd_bn": 43.1
-        }
-      ]
+      "latest_usd_bn": null,
+      "latest_year": null,
+      "pct_gdp": null,
+      "pct_gdp_year": null,
+      "series": []
     },
     "Colombia": {
       "flag": "🇨🇴",
-      "latest_usd_bn": 11.6,
-      "latest_year": "2025",
-      "pct_gdp": 2.53,
-      "pct_gdp_year": "2025",
-      "series": [
-        {
-          "year": "2015",
-          "usd_bn": 11.6
-        },
-        {
-          "year": "2016",
-          "usd_bn": 13.9
-        },
-        {
-          "year": "2017",
-          "usd_bn": 13.7
-        },
-        {
-          "year": "2018",
-          "usd_bn": 11.3
-        },
-        {
-          "year": "2019",
-          "usd_bn": 14.0
-        },
-        {
-          "year": "2020",
-          "usd_bn": 7.5
-        },
-        {
-          "year": "2021",
-          "usd_bn": 9.6
-        },
-        {
-          "year": "2022",
-          "usd_bn": 17.2
-        },
-        {
-          "year": "2023",
-          "usd_bn": 16.8
-        },
-        {
-          "year": "2024",
-          "usd_bn": 13.7
-        },
-        {
-          "year": "2025",
-          "usd_bn": 11.6
-        }
-      ]
+      "latest_usd_bn": null,
+      "latest_year": null,
+      "pct_gdp": null,
+      "pct_gdp_year": null,
+      "series": []
     },
     "Argentina": {
       "flag": "🇦🇷",
-      "latest_usd_bn": 3.1,
-      "latest_year": "2025",
-      "pct_gdp": 0.46,
-      "pct_gdp_year": "2025",
-      "series": [
-        {
-          "year": "2015",
-          "usd_bn": 11.8
-        },
-        {
-          "year": "2016",
-          "usd_bn": 3.3
-        },
-        {
-          "year": "2017",
-          "usd_bn": 11.5
-        },
-        {
-          "year": "2018",
-          "usd_bn": 11.7
-        },
-        {
-          "year": "2019",
-          "usd_bn": 6.6
-        },
-        {
-          "year": "2020",
-          "usd_bn": 4.9
-        },
-        {
-          "year": "2021",
-          "usd_bn": 6.7
-        },
-        {
-          "year": "2022",
-          "usd_bn": 15.2
-        },
-        {
-          "year": "2023",
-          "usd_bn": 24.8
-        },
-        {
-          "year": "2024",
-          "usd_bn": 11.6
-        },
-        {
-          "year": "2025",
-          "usd_bn": 3.1
-        }
-      ]
+      "latest_usd_bn": null,
+      "latest_year": null,
+      "pct_gdp": null,
+      "pct_gdp_year": null,
+      "series": []
     },
     "Chile": {
       "flag": "🇨🇱",
-      "latest_usd_bn": 14.5,
-      "latest_year": "2025",
-      "pct_gdp": 4.06,
-      "pct_gdp_year": "2025",
-      "series": [
-        {
-          "year": "2015",
-          "usd_bn": 17.8
-        },
-        {
-          "year": "2016",
-          "usd_bn": 11.4
-        },
-        {
-          "year": "2017",
-          "usd_bn": 5.2
-        },
-        {
-          "year": "2018",
-          "usd_bn": 7.9
-        },
-        {
-          "year": "2019",
-          "usd_bn": 13.6
-        },
-        {
-          "year": "2020",
-          "usd_bn": 11.4
-        },
-        {
-          "year": "2021",
-          "usd_bn": 15.2
-        },
-        {
-          "year": "2022",
-          "usd_bn": 18.8
-        },
-        {
-          "year": "2023",
-          "usd_bn": 19.2
-        },
-        {
-          "year": "2024",
-          "usd_bn": 13.1
-        },
-        {
-          "year": "2025",
-          "usd_bn": 14.5
-        }
-      ]
+      "latest_usd_bn": null,
+      "latest_year": null,
+      "pct_gdp": null,
+      "pct_gdp_year": null,
+      "series": []
     },
     "Peru": {
       "flag": "🇵🇪",
-      "latest_usd_bn": 10.4,
-      "latest_year": "2025",
-      "pct_gdp": 3.09,
-      "pct_gdp_year": "2025",
-      "series": [
-        {
-          "year": "2015",
-          "usd_bn": 7.4
-        },
-        {
-          "year": "2016",
-          "usd_bn": 7.0
-        },
-        {
-          "year": "2017",
-          "usd_bn": 7.7
-        },
-        {
-          "year": "2018",
-          "usd_bn": 6.2
-        },
-        {
-          "year": "2019",
-          "usd_bn": 5.2
-        },
-        {
-          "year": "2020",
-          "usd_bn": 0.9
-        },
-        {
-          "year": "2021",
-          "usd_bn": 7.1
-        },
-        {
-          "year": "2022",
-          "usd_bn": 11.4
-        },
-        {
-          "year": "2023",
-          "usd_bn": 4.4
-        },
-        {
-          "year": "2024",
-          "usd_bn": 6.7
-        },
-        {
-          "year": "2025",
-          "usd_bn": 10.4
-        }
-      ]
+      "latest_usd_bn": null,
+      "latest_year": null,
+      "pct_gdp": null,
+      "pct_gdp_year": null,
+      "series": []
     }
   },
   "governance": {
     "Brazil": {
       "flag": "🇧🇷",
-      "gov_effectiveness": -0.22,
-      "gov_effectiveness_year": "2024",
-      "regulatory_quality": -0.29,
-      "regulatory_quality_year": "2024",
-      "rule_of_law": -0.45,
-      "rule_of_law_year": "2024",
-      "control_corruption": -0.41,
-      "control_corruption_year": "2024",
-      "political_stability": -0.52,
-      "political_stability_year": "2024",
-      "voice_accountability": 0.32,
-      "voice_accountability_year": "2024"
+      "gov_effectiveness": null,
+      "gov_effectiveness_year": null,
+      "regulatory_quality": null,
+      "regulatory_quality_year": null,
+      "rule_of_law": null,
+      "rule_of_law_year": null,
+      "control_corruption": null,
+      "control_corruption_year": null,
+      "political_stability": null,
+      "political_stability_year": null,
+      "voice_accountability": null,
+      "voice_accountability_year": null
     },
     "Mexico": {
       "flag": "🇲🇽",
-      "gov_effectiveness": -0.22,
-      "gov_effectiveness_year": "2024",
-      "regulatory_quality": -0.2,
-      "regulatory_quality_year": "2024",
-      "rule_of_law": -1.15,
-      "rule_of_law_year": "2024",
-      "control_corruption": -0.94,
-      "control_corruption_year": "2024",
-      "political_stability": -0.72,
-      "political_stability_year": "2024",
-      "voice_accountability": -0.34,
-      "voice_accountability_year": "2024"
+      "gov_effectiveness": null,
+      "gov_effectiveness_year": null,
+      "regulatory_quality": null,
+      "regulatory_quality_year": null,
+      "rule_of_law": null,
+      "rule_of_law_year": null,
+      "control_corruption": null,
+      "control_corruption_year": null,
+      "political_stability": null,
+      "political_stability_year": null,
+      "voice_accountability": null,
+      "voice_accountability_year": null
     },
     "Colombia": {
       "flag": "🇨🇴",
-      "gov_effectiveness": -0.11,
-      "gov_effectiveness_year": "2024",
-      "regulatory_quality": 0.01,
-      "regulatory_quality_year": "2024",
-      "rule_of_law": -0.56,
-      "rule_of_law_year": "2024",
-      "control_corruption": -0.29,
-      "control_corruption_year": "2024",
-      "political_stability": -0.97,
-      "political_stability_year": "2024",
-      "voice_accountability": 0.03,
-      "voice_accountability_year": "2024"
+      "gov_effectiveness": null,
+      "gov_effectiveness_year": null,
+      "regulatory_quality": null,
+      "regulatory_quality_year": null,
+      "rule_of_law": null,
+      "rule_of_law_year": null,
+      "control_corruption": null,
+      "control_corruption_year": null,
+      "political_stability": null,
+      "political_stability_year": null,
+      "voice_accountability": null,
+      "voice_accountability_year": null
     },
     "Argentina": {
       "flag": "🇦🇷",
-      "gov_effectiveness": 0.18,
-      "gov_effectiveness_year": "2024",
-      "regulatory_quality": -0.24,
-      "regulatory_quality_year": "2024",
-      "rule_of_law": -0.25,
-      "rule_of_law_year": "2024",
-      "control_corruption": -0.33,
-      "control_corruption_year": "2024",
-      "political_stability": -0.17,
-      "political_stability_year": "2024",
-      "voice_accountability": 0.39,
-      "voice_accountability_year": "2024"
+      "gov_effectiveness": null,
+      "gov_effectiveness_year": null,
+      "regulatory_quality": null,
+      "regulatory_quality_year": null,
+      "rule_of_law": null,
+      "rule_of_law_year": null,
+      "control_corruption": null,
+      "control_corruption_year": null,
+      "political_stability": null,
+      "political_stability_year": null,
+      "voice_accountability": null,
+      "voice_accountability_year": null
     },
     "Chile": {
       "flag": "🇨🇱",
-      "gov_effectiveness": 0.96,
-      "gov_effectiveness_year": "2024",
-      "regulatory_quality": 0.78,
-      "regulatory_quality_year": "2024",
-      "rule_of_law": 0.69,
-      "rule_of_law_year": "2024",
-      "control_corruption": 1.11,
-      "control_corruption_year": "2024",
-      "political_stability": 0.12,
-      "political_stability_year": "2024",
-      "voice_accountability": 0.99,
-      "voice_accountability_year": "2024"
+      "gov_effectiveness": null,
+      "gov_effectiveness_year": null,
+      "regulatory_quality": null,
+      "regulatory_quality_year": null,
+      "rule_of_law": null,
+      "rule_of_law_year": null,
+      "control_corruption": null,
+      "control_corruption_year": null,
+      "political_stability": null,
+      "political_stability_year": null,
+      "voice_accountability": null,
+      "voice_accountability_year": null
     },
     "Peru": {
       "flag": "🇵🇪",
-      "gov_effectiveness": -0.2,
-      "gov_effectiveness_year": "2024",
-      "regulatory_quality": 0.08,
-      "regulatory_quality_year": "2024",
-      "rule_of_law": -0.51,
-      "rule_of_law_year": "2024",
-      "control_corruption": -0.72,
-      "control_corruption_year": "2024",
-      "political_stability": -0.65,
-      "political_stability_year": "2024",
-      "voice_accountability": 0.05,
-      "voice_accountability_year": "2024"
+      "gov_effectiveness": null,
+      "gov_effectiveness_year": null,
+      "regulatory_quality": null,
+      "regulatory_quality_year": null,
+      "rule_of_law": null,
+      "rule_of_law_year": null,
+      "control_corruption": null,
+      "control_corruption_year": null,
+      "political_stability": null,
+      "political_stability_year": null,
+      "voice_accountability": null,
+      "voice_accountability_year": null
     }
   },
   "signals": {
     "Brazil": {
       "flag": "🇧🇷",
-      "fx_vol_30d": 9.3,
+      "fx_vol_30d": 8.7,
       "fx_vol_band": "medium",
-      "fx_trend_4w": -1.16,
-      "equity_trend_4w": 1.94,
+      "fx_trend_4w": -2.12,
+      "equity_trend_4w": 2.14,
       "policy_direction": "cutting"
     },
     "Mexico": {
       "flag": "🇲🇽",
-      "fx_vol_30d": 7.1,
+      "fx_vol_30d": 7.0,
       "fx_vol_band": "low",
-      "fx_trend_4w": -0.29,
-      "equity_trend_4w": -0.49,
+      "fx_trend_4w": -0.86,
+      "equity_trend_4w": -0.18,
       "policy_direction": "hold"
     },
     "Colombia": {
       "flag": "🇨🇴",
-      "fx_vol_30d": 9.9,
+      "fx_vol_30d": 13.7,
       "fx_vol_band": "medium",
-      "fx_trend_4w": -6.94,
-      "equity_trend_4w": 1.24,
+      "fx_trend_4w": -4.26,
+      "equity_trend_4w": 4.35,
       "policy_direction": "hiking"
     },
     "Argentina": {
       "flag": "🇦🇷",
       "fx_vol_30d": 14.8,
       "fx_vol_band": "medium",
-      "fx_trend_4w": 1.07,
-      "equity_trend_4w": 4.26,
+      "fx_trend_4w": -0.58,
+      "equity_trend_4w": 4.25,
       "policy_direction": "hold"
     },
     "Chile": {
       "flag": "🇨🇱",
-      "fx_vol_30d": 8.7,
+      "fx_vol_30d": 8.2,
       "fx_vol_band": "medium",
-      "fx_trend_4w": 1.1,
-      "equity_trend_4w": -1.14,
+      "fx_trend_4w": 1.05,
+      "equity_trend_4w": 0.51,
       "policy_direction": "hold"
     },
     "Peru": {
       "flag": "🇵🇪",
       "fx_vol_30d": 27.1,
       "fx_vol_band": "high",
-      "fx_trend_4w": 1.8,
-      "equity_trend_4w": 1.73,
+      "fx_trend_4w": 1.5,
+      "equity_trend_4w": 2.2,
       "policy_direction": "hold"
     }
   },
   "highlights": {
     "en": [
-      "🇧🇷 Brazil led Core 6 equities this week (+1.8%); Colombia lagged (-1.0%).",
-      "🇨🇴 The COP appreciated 1.6% vs. USD, the week's largest currency move.",
-      "🛢 Brent Crude fell 3.9% this week (Colombia, Mexico, Brazil).",
-      "🔴 Copper fell 2.6% this week (Chile, Peru).",
-      "☕ Coffee rose 2.6% this week (Colombia, Brazil)."
+      "🇨🇴 Colombia led Core 6 equities this week (+3.6%); Argentina lagged (+0.2%).",
+      "🇨🇱 The CLP appreciated 1.6% vs. USD, the week's largest currency move.",
+      "🛢 Brent Crude fell 5.2% this week (Colombia, Mexico, Brazil).",
+      "🔴 Copper rose 2.8% this week (Chile, Peru).",
+      "🌱 Soybean fell 2.3% this week (Brazil, Argentina)."
     ],
     "es": [
-      "🇧🇷 Brasil lideró las bolsas del Core 6 esta semana (+1.8%); Colombia quedó rezagado (-1.0%).",
-      "🇨🇴 El COP se apreció 1.6% frente al USD, el mayor movimiento cambiario de la semana.",
-      "🛢 El Brent cayó 3.9% esta semana (Colombia, Mexico, Brazil).",
-      "🔴 El cobre cayó 2.6% esta semana (Chile, Peru).",
-      "☕ El café subió 2.6% esta semana (Colombia, Brazil)."
+      "🇨🇴 Colombia lideró las bolsas del Core 6 esta semana (+3.6%); Argentina quedó rezagado (+0.2%).",
+      "🇨🇱 El CLP se apreció 1.6% frente al USD, el mayor movimiento cambiario de la semana.",
+      "🛢 El Brent cayó 5.2% esta semana (Colombia, Mexico, Brazil).",
+      "🔴 El cobre subió 2.8% esta semana (Chile, Peru).",
+      "🌱 El soya cayó 2.3% esta semana (Brazil, Argentina)."
     ]
   },
   "signals_methodology": {
