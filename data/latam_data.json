@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated": "2026-09-07T13:20:03.672705",
+    "generated": "2026-09-14T13:43:17.087361",
     "version": 2,
-    "report_date": "2026-09-07",
-    "report_week": "Week of September 07, 2026",
-    "report_week_es": "Semana del 7 de septiembre de 2026",
+    "report_date": "2026-09-14",
+    "report_week": "Week of September 14, 2026",
+    "report_week_es": "Semana del 14 de septiembre de 2026",
     "sources": [
       "Yahoo Finance (yfinance)",
       "BIS Data Portal (policy rates)",
@@ -18,72 +18,72 @@
       "flag": "🇧🇷",
       "ticker": "^BVSP",
       "proxy": false,
-      "last": 185147.0,
-      "prev_close": 185188.0,
-      "change_pct": -0.02,
-      "week_pct": 5.4,
-      "updated": "2026-09-04",
-      "ytd_pct": 14.31
+      "last": 184490.41,
+      "prev_close": 187207.0,
+      "change_pct": -1.45,
+      "week_pct": -0.35,
+      "updated": "2026-09-14",
+      "ytd_pct": 13.9
     },
     "Mexico": {
       "index": "S&P/BMV IPC",
       "flag": "🇲🇽",
       "ticker": "^MXX",
       "proxy": false,
-      "last": 64866.61,
-      "prev_close": 65436.16,
-      "change_pct": -0.87,
-      "week_pct": -0.94,
-      "updated": "2026-09-04",
-      "ytd_pct": -0.01
+      "last": 63924.77,
+      "prev_close": 64106.82,
+      "change_pct": -0.28,
+      "week_pct": -1.45,
+      "updated": "2026-09-11",
+      "ytd_pct": -1.46
     },
     "Colombia": {
       "index": "iShares COLCAP (BVC)",
       "flag": "🇨🇴",
       "ticker": "ICOLCAP.CL",
       "proxy": true,
-      "last": 25100.0,
-      "prev_close": 25097.5,
-      "change_pct": 0.01,
-      "week_pct": 1.87,
-      "updated": "2026-09-04",
-      "ytd_pct": 19.61
+      "last": 25702.0,
+      "prev_close": 26027.0,
+      "change_pct": -1.25,
+      "week_pct": 2.4,
+      "updated": "2026-09-11",
+      "ytd_pct": 22.48
     },
     "Argentina": {
       "index": "S&P MERVAL",
       "flag": "🇦🇷",
       "ticker": "^MERV",
       "proxy": false,
-      "last": 3049122.0,
-      "prev_close": 3058093.0,
-      "change_pct": -0.29,
-      "week_pct": 2.34,
-      "updated": "2026-09-04",
-      "ytd_pct": 1.17
+      "last": 3098898.0,
+      "prev_close": 3157852.0,
+      "change_pct": -1.87,
+      "week_pct": 1.63,
+      "updated": "2026-09-11",
+      "ytd_pct": 2.82
     },
     "Chile": {
       "index": "iShares MSCI Chile ETF (USD)",
       "flag": "🇨🇱",
       "ticker": "ECH",
       "proxy": true,
-      "last": 40.84,
-      "prev_close": 41.05,
-      "change_pct": -0.51,
-      "week_pct": -0.37,
-      "updated": "2026-09-04",
-      "ytd_pct": -2.13
+      "last": 38.71,
+      "prev_close": 39.48,
+      "change_pct": -1.95,
+      "week_pct": -5.22,
+      "updated": "2026-09-14",
+      "ytd_pct": -7.24
     },
     "Peru": {
       "index": "iShares MSCI Peru ETF (USD)",
       "flag": "🇵🇪",
       "ticker": "EPU",
       "proxy": true,
-      "last": 92.17,
-      "prev_close": 92.48,
-      "change_pct": -0.34,
-      "week_pct": -0.14,
-      "updated": "2026-09-04",
-      "ytd_pct": 24.22
+      "last": 88.46,
+      "prev_close": 90.72,
+      "change_pct": -2.49,
+      "week_pct": -4.03,
+      "updated": "2026-09-14",
+      "ytd_pct": 19.22
     }
   },
   "fx": {
@@ -91,66 +91,66 @@
       "flag": "🇧🇷",
       "country": "Brazil",
       "ticker": "BRL=X",
-      "last": 5.13,
+      "last": 5.18,
       "prev_close": 5.1,
-      "change_pct": 0.59,
-      "week_pct": -1.16,
-      "updated": "2026-09-07",
-      "ytd_pct": -4.47
+      "change_pct": 1.57,
+      "week_pct": 0.97,
+      "updated": "2026-09-14",
+      "ytd_pct": -3.54
     },
     "USD/MXN": {
       "flag": "🇲🇽",
       "country": "Mexico",
       "ticker": "MXN=X",
-      "last": 16.91,
-      "prev_close": 16.91,
-      "change_pct": 0.0,
-      "week_pct": -0.7,
-      "updated": "2026-09-07",
-      "ytd_pct": -5.95
+      "last": 17.16,
+      "prev_close": 16.98,
+      "change_pct": 1.06,
+      "week_pct": 1.6,
+      "updated": "2026-09-14",
+      "ytd_pct": -4.56
     },
     "USD/COP": {
       "flag": "🇨🇴",
       "country": "Colombia",
       "ticker": "COP=X",
-      "last": 3137.49,
-      "prev_close": 3152.18,
-      "change_pct": -0.47,
-      "week_pct": -2.0,
-      "updated": "2026-09-07",
-      "ytd_pct": -15.46
+      "last": 3110.78,
+      "prev_close": 3101.55,
+      "change_pct": 0.3,
+      "week_pct": -0.56,
+      "updated": "2026-09-14",
+      "ytd_pct": -16.18
     },
     "USD/ARS": {
       "flag": "🇦🇷",
       "country": "Argentina",
       "ticker": "ARS=X",
-      "last": 1500.0,
-      "prev_close": 1508.4,
-      "change_pct": -0.56,
-      "week_pct": 0.08,
-      "updated": "2026-09-07",
-      "ytd_pct": 2.23
+      "last": 1513.5,
+      "prev_close": 1512.76,
+      "change_pct": 0.05,
+      "week_pct": 0.32,
+      "updated": "2026-09-14",
+      "ytd_pct": 3.15
     },
     "USD/CLP": {
       "flag": "🇨🇱",
       "country": "Chile",
       "ticker": "CLP=X",
-      "last": 933.15,
-      "prev_close": 932.64,
-      "change_pct": 0.05,
-      "week_pct": 0.18,
-      "updated": "2026-09-07",
-      "ytd_pct": 4.45
+      "last": 958.15,
+      "prev_close": 940.32,
+      "change_pct": 1.9,
+      "week_pct": 2.96,
+      "updated": "2026-09-14",
+      "ytd_pct": 7.24
     },
     "USD/PEN": {
       "flag": "🇵🇪",
       "country": "Peru",
       "ticker": "PEN=X",
       "last": 3.36,
-      "prev_close": 3.36,
-      "change_pct": 0.0,
-      "week_pct": 1.82,
-      "updated": "2026-09-07",
+      "prev_close": 3.25,
+      "change_pct": 3.38,
+      "week_pct": 2.44,
+      "updated": "2026-09-14",
       "ytd_pct": 0.0
     }
   },
@@ -159,56 +159,56 @@
       "unit": "USD/bbl",
       "emoji": "🛢",
       "latam": "Colombia, Mexico, Brazil",
-      "last": 96.28,
-      "prev_close": 96.28,
-      "change_pct": 0.0,
-      "week_pct": 6.4,
-      "updated": "2026-09-07",
-      "ytd_pct": 60.57
+      "last": 108.67,
+      "prev_close": 104.61,
+      "change_pct": 3.88,
+      "week_pct": 12.87,
+      "updated": "2026-09-14",
+      "ytd_pct": 81.24
     },
     "Copper": {
       "unit": "USD/lb",
       "emoji": "🔴",
       "latam": "Chile, Peru",
-      "last": 6.68,
-      "prev_close": 6.6,
-      "change_pct": 1.21,
-      "week_pct": 1.37,
-      "updated": "2026-09-07",
-      "ytd_pct": 14.97
+      "last": 6.38,
+      "prev_close": 6.47,
+      "change_pct": -1.39,
+      "week_pct": -3.33,
+      "updated": "2026-09-14",
+      "ytd_pct": 9.81
     },
     "Gold": {
       "unit": "USD/oz",
       "emoji": "🥇",
       "latam": "Peru, Colombia",
-      "last": 4476.6,
-      "prev_close": 4429.8,
-      "change_pct": 1.06,
-      "week_pct": 1.03,
-      "updated": "2026-09-07",
-      "ytd_pct": 0.61
+      "last": 4314.9,
+      "prev_close": 4366.2,
+      "change_pct": -1.17,
+      "week_pct": -2.59,
+      "updated": "2026-09-14",
+      "ytd_pct": -3.02
     },
     "Soybean": {
       "unit": "USc/bu",
       "emoji": "🌱",
       "latam": "Brazil, Argentina",
-      "last": 1293.75,
-      "prev_close": 1306.25,
-      "change_pct": -0.96,
-      "week_pct": 1.37,
-      "updated": "2026-09-04",
-      "ytd_pct": 22.89
+      "last": 1296.75,
+      "prev_close": 1280.25,
+      "change_pct": 1.29,
+      "week_pct": 0.23,
+      "updated": "2026-09-14",
+      "ytd_pct": 23.18
     },
     "Coffee": {
       "unit": "USc/lb",
       "emoji": "☕",
       "latam": "Colombia, Brazil",
-      "last": 324.25,
-      "prev_close": 324.35,
-      "change_pct": -0.03,
-      "week_pct": -6.25,
-      "updated": "2026-09-04",
-      "ytd_pct": -13.64
+      "last": 287.0,
+      "prev_close": 313.65,
+      "change_pct": -8.5,
+      "week_pct": -11.49,
+      "updated": "2026-09-14",
+      "ytd_pct": -23.56
     }
   },
   "macro": {
@@ -270,7 +270,7 @@
   "policy_rates": {
     "Brazil": {
       "rate": 14.0,
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-08",
       "direction": "cutting",
       "bank": "BCB/Copom",
       "target": "3.0% ±1.5",
@@ -280,7 +280,7 @@
     },
     "Mexico": {
       "rate": 6.5,
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-08",
       "direction": "hold",
       "bank": "Banxico",
       "target": "3.0% ±1",
@@ -290,8 +290,8 @@
     },
     "Colombia": {
       "rate": 12.0,
-      "as_of": "2026-08-26",
-      "direction": "hiking",
+      "as_of": "2026-09-08",
+      "direction": "hold",
       "bank": "BanRep",
       "target": "3.0% ±1",
       "flag": "🇨🇴",
@@ -310,7 +310,7 @@
     },
     "Chile": {
       "rate": 4.5,
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-08",
       "direction": "hold",
       "bank": "BCCh",
       "target": "3.0% ±1",
@@ -320,7 +320,7 @@
     },
     "Peru": {
       "rate": 4.25,
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-04",
       "direction": "hold",
       "bank": "BCRP",
       "target": "2.0% ±1",
@@ -744,65 +744,67 @@
   "signals": {
     "Brazil": {
       "flag": "🇧🇷",
-      "fx_vol_30d": 9.4,
+      "fx_vol_30d": 9.9,
       "fx_vol_band": "medium",
-      "fx_trend_4w": 0.98,
-      "equity_trend_4w": 7.32,
+      "fx_trend_4w": -0.77,
+      "equity_trend_4w": 10.52,
       "policy_direction": "cutting"
     },
     "Mexico": {
       "flag": "🇲🇽",
-      "fx_vol_30d": 3.6,
+      "fx_vol_30d": 5.1,
       "fx_vol_band": "low",
-      "fx_trend_4w": -1.34,
-      "equity_trend_4w": -3.1,
+      "fx_trend_4w": 0.82,
+      "equity_trend_4w": -0.73,
       "policy_direction": "hold"
     },
     "Colombia": {
       "flag": "🇨🇴",
-      "fx_vol_30d": 17.2,
+      "fx_vol_30d": 15.8,
       "fx_vol_band": "high",
-      "fx_trend_4w": -0.58,
-      "equity_trend_4w": 7.11,
-      "policy_direction": "hiking"
+      "fx_trend_4w": -0.62,
+      "equity_trend_4w": 7.47,
+      "policy_direction": "hold"
     },
     "Argentina": {
       "flag": "🇦🇷",
-      "fx_vol_30d": 6.0,
+      "fx_vol_30d": 5.3,
       "fx_vol_band": "low",
-      "fx_trend_4w": 0.49,
-      "equity_trend_4w": -1.66,
+      "fx_trend_4w": 1.6,
+      "equity_trend_4w": 3.28,
       "policy_direction": "hold"
     },
     "Chile": {
       "flag": "🇨🇱",
-      "fx_vol_30d": 7.9,
-      "fx_vol_band": "low",
-      "fx_trend_4w": 2.26,
-      "equity_trend_4w": -0.99,
+      "fx_vol_30d": 10.2,
+      "fx_vol_band": "medium",
+      "fx_trend_4w": 4.93,
+      "equity_trend_4w": -3.99,
       "policy_direction": "hold"
     },
     "Peru": {
       "flag": "🇵🇪",
-      "fx_vol_30d": 21.5,
+      "fx_vol_30d": 26.4,
       "fx_vol_band": "high",
-      "fx_trend_4w": 1.51,
-      "equity_trend_4w": 1.58,
+      "fx_trend_4w": 1.82,
+      "equity_trend_4w": -0.26,
       "policy_direction": "hold"
     }
   },
   "highlights": {
     "en": [
-      "🇧🇷 Brazil led Core 6 equities this week (+5.4%); Mexico lagged (-0.9%).",
-      "🇨🇴 The COP appreciated 2.0% vs. USD, the week's largest currency move.",
-      "🛢 Brent Crude rose 6.4% this week (Colombia, Mexico, Brazil).",
-      "☕ Coffee fell 6.2% this week (Colombia, Brazil)."
+      "🇨🇴 Colombia led Core 6 equities this week (+2.4%); Chile lagged (-5.2%).",
+      "🇨🇱 The CLP depreciated 3.0% vs. USD, the week's largest currency move.",
+      "🛢 Brent Crude rose 12.9% this week (Colombia, Mexico, Brazil).",
+      "🔴 Copper fell 3.3% this week (Chile, Peru).",
+      "🥇 Gold fell 2.6% this week (Peru, Colombia)."
     ],
     "es": [
-      "🇧🇷 Brasil lideró las bolsas del Core 6 esta semana (+5.4%); México quedó rezagado (-0.9%).",
-      "🇨🇴 El COP se apreció 2.0% frente al USD, el mayor movimiento cambiario de la semana.",
-      "🛢 El Brent subió 6.4% esta semana (Colombia, Mexico, Brazil).",
-      "☕ El café cayó 6.2% esta semana (Colombia, Brazil)."
+      "🇨🇴 Colombia lideró las bolsas del Core 6 esta semana (+2.4%); Chile quedó rezagado (-5.2%).",
+      "🇨🇱 El CLP se depreció 3.0% frente al USD, el mayor movimiento cambiario de la semana.",
+      "🛢 El Brent subió 12.9% esta semana (Colombia, Mexico, Brazil).",
+      "🔴 El cobre cayó 3.3% esta semana (Chile, Peru).",
+      "🥇 El oro cayó 2.6% esta semana (Peru, Colombia)."
     ]
   },
   "signals_methodology": {
